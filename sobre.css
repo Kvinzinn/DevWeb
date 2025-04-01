@@ -1,0 +1,49 @@
+@keyframes aparecer {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+
+h1.nome {
+    color: #eb0033; 
+    font-size: 30px; 
+    text-align:center; 
+    font-family: 'Arial', sans-serif; 
+    text-transform: uppercase; 
+    letter-spacing: 20px; 
+    margin-top: 20px; 
+    opacity: 0;
+    animation: aparecer 2s forwards;
+}
+
+
+
+ul.menu {
+    list-style: circle;
+    padding: 1%;
+    margin: 4%;
+    justify-content: center;
+    border-radius: 10PX ;
+    background-color: rgb(119, 35, 35);
+
+    
+}
+
+    ul.menu li a {
+        color: #000000; 
+        text-decoration: none; 
+        font-size: 18px; 
+        padding: 12px 20px; 
+        display: block; 
+
+}
+
+ul.menu li a:hover {
+    color: #50504f;
+    background-color: #fdfdfd transparent;
+}
